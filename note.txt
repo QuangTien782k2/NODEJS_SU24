@@ -1,2 +1,5 @@
 npm install --save mongodb@3.5.9
 npm install --save assert@1.5.0
+
+
+mongod --dbpath=data --bind_ip 127.0.0.1
