@@ -4,7 +4,7 @@
 	const dishSchema = new Schema({
 	    name: {
 	        type: String,
-	        required: true,
+        required: true,
 	        unique: true
 	    },
 	    description: {
@@ -18,3 +18,4 @@
 	var Dishes = mongoose.model('Dish', dishSchema);
 	
 	module.exports = Dishes;
+
